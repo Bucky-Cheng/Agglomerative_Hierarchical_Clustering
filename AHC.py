@@ -9,7 +9,8 @@ matrix_width=0
 item_list=[]
 result_list=[]
 
-with open('SCOV2_96_matrix.txt','r')as f:
+#input file and read file
+with open(sys.argv[1],'r')as f:
     line = f.readline();
 
     while line:
@@ -45,7 +46,7 @@ for i in range(1,matrix_width+1):
 #print(sim_matrix[93][93])
 
 
-#start Agglomerative Hierarchical Clustering
+#START Agglomerative Hierarchical Clustering
 
 def Clustering():
     maximum = 0
@@ -99,7 +100,7 @@ def Clustering():
         count_list[maximum_r].append(i)
     del count_list[maximum_c]
 
-
+#END Agglomerative Hierarchical Clustering
 
 
 
