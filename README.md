@@ -3,6 +3,7 @@ Agglomerative hierarchical clustering
 Unsupervised learning
 
 
+
 A. Instructions of program
 
 Environment: macOS Catalina 10.15
@@ -14,6 +15,7 @@ IDE: PyCharm 2019.2.5(Professional Edition)
 Command Line: python3 AHC.py SCOV2_96_matrix.txt
 
 The output is the contents and heatmap figures of K=2,3,4,5 clusters. Notice, the program will show the contents and heatmap figure of K=2 clusters firstly, and close the figure, the contents and heatmap figures of next K clusters will be showing.
+
 
 
 B. Description about generate different number of clusters
