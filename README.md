@@ -13,7 +13,7 @@ Python Version: Python 3.7.5
 
 IDE: PyCharm 2019.2.5(Professional Edition)
 
-Command Line: python3 AHC.py SCOV2_96_matrix.txt
+Runnig Command Line: python3 AHC.py SCOV2_96_matrix.txt
 
 The output is the contents and heatmap figures of K=2,3,4,5 clusters. Notice, the program will show the contents and heatmap figure of K=2 clusters firstly, and close the figure, the contents and heatmap figures of next K clusters will be showing.
 
